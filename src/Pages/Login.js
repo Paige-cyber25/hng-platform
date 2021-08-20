@@ -57,7 +57,7 @@ const Login = () => {
             required="required"
           />
           {formInputs.email && formInputs.password ? (
-            <NavLink to="/home">
+            <NavLink to="/">
               <center>
                 <button type="submit" className={classes.loginButton}>
                   Login
