@@ -1,0 +1,46 @@
+.loginMainContainer {
+   max-width: 50%;
+   height: auto;
+   margin: auto;
+   padding: 80px;
+}
+
+.loginHeader {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.loginFormContainer {  
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+label {
+    font-size: 16px;
+}
+input {
+    width: 100%;
+    padding-right:50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: auto;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid #ced4da;
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+.loginButton {
+    border: none;
+    margin-top: 20px;
+    padding: 5% 51.5%; 
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: rgb(67, 67, 211);
+    color: #fff;   
+}

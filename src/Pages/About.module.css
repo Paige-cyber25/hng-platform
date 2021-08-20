@@ -1,0 +1,30 @@
+.aboutContainer {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #D5EFFE;
+    padding: 20px;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+
+.aboutContent h3 {
+    font-size: 18px;
+}
+
+.aboutContent p {
+    font-size: 16px;
+}
+
+.aboutImage {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+}

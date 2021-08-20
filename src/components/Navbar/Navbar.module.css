@@ -1,0 +1,31 @@
+.navbarContainer {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: #F8F9FA;
+}
+
+.linkWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navLink {
+    text-decoration: none;
+    padding:20px;
+    font-size: 20px;
+}
+
+.linkWrapper li {
+    list-style: none; 
+}
+
+/* .active{
+    color:#fcfcfc;
+    background-color: blue;
+   } */
+  
